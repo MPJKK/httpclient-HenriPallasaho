@@ -1,3 +1,11 @@
 <p>
   {{ tulos }}
 </p>
+
+<p>
+  <img [src]="apitulos">
+</p>
+
+<p *ngFor="let osoite of osoitetulos">
+  {{ osoite.id }}
+</p>
